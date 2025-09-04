@@ -1,0 +1,8 @@
+project(JavaTest123)
+
+language(java 17)
+
+add_library(mylib src/mylib/Lib.java)
+add_executable(myapp src/main/Main.java)
+
+target_link_libraries(myapp PRIVATE mylib)

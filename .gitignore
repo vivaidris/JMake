@@ -1,0 +1,30 @@
+# Ignore compiled Java classes
+*.class
+**/*.class
+
+# Ignore build output dirs if you add them
+build/
+out/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore generated Makefile (optional, if you regenerate it)
+Makefile
+
+# Ignore backup/temp files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Ignore VSCode / JetBrains project files
+.vscode/
+.idea/
+
+# If you DO want to ignore all of src/ and tests/
+# Uncomment the lines below (not recommended unless you’re generating them)
+src/
+tests/
